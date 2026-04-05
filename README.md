@@ -18,6 +18,12 @@ This attribution is required for all public uses of Kayak.
 Exceptions may be granted for specific collaborators at the
 author's discretion.
 
+1. Kayak
+2. AIDSL
+
+
+1. Kayak - By Pineaxe
+
 CONTEXT ENGINE
 --------------
 - Text-based world knowledge database (KayakDB): plain text files
@@ -226,6 +232,42 @@ MODDING SUPPORT
 - Full API: 26 HTTP endpoints for reading, writing, and querying
   every aspect of the database.
 
+======================================================================
+AIDSL — Pineaxe
+======================================================================
+
+So, why did I develop AIDSL?
+
+AIDSL is a small “coding language” designed as the next step for Kayak’s entity files.
+
+The problem I kept running into is simple: most formats we use today are built to be parsed, validated, and structured for machines, not to be understood by language models.
+
+JSON, cfg, even minimal formats like DACK, they store data well. But they don’t carry intent. They don’t express weight, nuance, or meaning in a way an LLM can naturally interpret.
+
+And when your entire system depends on how well an LLM understands context, that becomes a bottleneck.
+
+So instead of forcing LLMs to adapt to rigid data formats, I flipped the approach.
+
+AIDSL is declarative and semantic-first. It allows you to define meaning before usage, and to shape how information should be interpreted, not just stored.
+
+For example:
+
+Symbols can be redefined depending on context
+
+Expressions can carry emphasis (like >> <<) to influence importance
+
+Structures are written to be readable both by humans and LLMs, without relying on strict parsing rules
+
+The same syntax can represent different systems depending on prior definitions
+
+
+In other words, AIDSL is not just a data format.
+
+It’s a layer that sits between raw data and LLM interpretation, giving you control over how the model reads the world.
+
+For Kayak, that means entity files are no longer just containers of information. They become structured intent, directly shaping how NPCs think, react, and behave.
+
+AIDSL is free to use and modify, that’s the point.
 
 ======================================================================
 Kayak V3 — Pineaxe
