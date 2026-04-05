@@ -7,7 +7,7 @@ However, any project or mod using Kayak and/or AIDSL must clearly display the
 following credit on its public release/presentation page (e.g.,
 Steam Workshop page, NexusMods page or equivalent):
 
-    "Powered by Kayak (built for Sentient Sands)"
+    "Powered by Kayak and AIDSL (built for Sentient Sands)"
 
 and include links to:
 
