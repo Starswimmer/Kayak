@@ -1,4 +1,4 @@
-KAYAK V3 — FEATURE LIST
+KAYAK V0.6 — FEATURE LIST
 ======================================================================
 
 Kayak and AIDSL are free to use, modify, and distribute.
