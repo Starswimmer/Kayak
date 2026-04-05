@@ -268,6 +268,7 @@ It’s a layer that sits between raw data and LLM interpretation, giving you con
 For Kayak, that means entity files are no longer just containers of information. They become structured intent, directly shaping how NPCs think, react, and behave.
 
 AIDSL is free to use and modify, that’s the point.
+Public use requires proper credit as defined above.
 
 ======================================================================
 Kayak V3 — Pineaxe
