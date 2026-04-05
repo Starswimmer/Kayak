@@ -1,9 +1,9 @@
 KAYAK V3 — FEATURE LIST
 ======================================================================
 
-Kayak is free to use, modify, and distribute.
+Kayak and AIDSL are free to use, modify, and distribute.
 
-However, any project or mod using Kayak must clearly display the
+However, any project or mod using Kayak and/or AIDSL must clearly display the
 following credit on its public release/presentation page (e.g.,
 Steam Workshop page, NexusMods page or equivalent):
 
